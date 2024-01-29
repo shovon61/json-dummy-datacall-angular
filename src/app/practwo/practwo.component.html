@@ -1,0 +1,31 @@
+<!-- <h1>Anather Systhem in templates </h1>
+<div *ngFor="let restaurant of data">
+    <h2>Restaurant Name : {{ restaurant.name }}</h2>
+    <p><b>Address : </b> {{ restaurant.address }}</p>
+    <img [src]="restaurant.feature_image" alt="{{ restaurant.name }}">
+
+    <h3>Menu</h3>
+    <ul>
+        <li *ngFor="let menuItem of restaurant.menu">
+            <p>{{ menuItem.name }}</p>
+            <p>{{ menuItem.desc }}</p>
+            <p>Price: {{ menuItem.price }}</p>
+        </li>
+    </ul>
+</div> -->
+
+<h1>Anather Systhem in templates </h1>
+<div *ngFor="let restaurant of demoData">
+    <h2>Restaurant Name : {{ restaurant.name }}</h2>
+    <p><b>Address : </b> {{ restaurant.address }}</p>
+    <img [src]="restaurant.feature_image" alt="{{ restaurant.name }}">
+
+    <h3>Menu</h3>
+    <ul>
+        <li *ngFor="let menuItem of restaurant.menu">
+            <p>{{ menuItem.name }}</p>
+            <p>{{ menuItem.desc }}</p>
+            <p>Price: {{ menuItem.price }}</p>
+        </li>
+    </ul>
+</div>
