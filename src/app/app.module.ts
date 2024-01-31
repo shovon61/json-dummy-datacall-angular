@@ -9,12 +9,14 @@ import { FormsModule } from '@angular/forms';
 import { PractwoComponent } from './practwo/practwo.component';
 
 import { ButtonModule } from 'primeng/button';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PracComponent,
-    PractwoComponent
+    PractwoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

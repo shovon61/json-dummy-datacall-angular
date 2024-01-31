@@ -1,0 +1,21 @@
+<div>
+<h1 style="text-align: center;">Menu Item's Table</h1>
+
+
+    <table style="width: 75%; margin-top: 50px; margin-left: 12.5%;" *ngFor="let item of menu">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>DESCRIPTION</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let menuitem of item.menu">
+            <td>{{ menuitem.id }}</td>
+            <td>{{ menuitem.name }}</td>
+            <td>{{ menuitem.desc }}</td>
+            <td>{{ menuitem.price }}</td>
+        </tbody>
+    </table>
+</div>
